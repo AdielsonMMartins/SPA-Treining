@@ -1,0 +1,25 @@
+{
+  "Usuario": [
+    {
+      "id": 1,
+      "name": "Marcos",
+      "idade": 35,
+      "rg": 2678976,
+      "email": "mmarcosm@email.com"
+    },
+    {
+      "id": 2,
+      "name": "Adri",
+      "idade": 36,
+      "rg": 26789700,
+      "email": "adri.@email.com"
+    },
+    {
+      "id": 5,
+      "name": "Adielson",
+      "idade": 35,
+      "rg": 2678976,
+      "email": "adieslon.mm@email.com"
+    }
+  ]
+}

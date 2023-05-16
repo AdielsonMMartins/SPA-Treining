@@ -1,0 +1,25 @@
+http://localhost:3000/Usuario
+
+###
+POST http://localhost:3000/Usuario HTTP/1.1
+content-type: application/json
+
+  {
+    "id": 5,
+    "nome": "Eu",
+    "idade": 35,
+    "rg": 2678976,
+    "email": "eu.mm@email.com"
+  }
+
+###
+PUT http://localhost:3000/Usuario/2 HTTP/1.1
+content-type: application/json
+
+  {
+    "id": 2,
+    "nome": "Adri",
+    "idade": 36,
+    "rg": 26789700,
+    "email": "adri.@email.com"
+  }

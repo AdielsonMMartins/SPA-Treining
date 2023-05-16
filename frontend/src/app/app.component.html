@@ -1,0 +1,41 @@
+
+<div class="card flex justify-content-center">
+  <p-button label="Check" icon="pi pi-check"></p-button>
+
+
+
+</div>
+
+
+<p-table [value]="usuarios" styleClass="p-datatable-gridlines" [tableStyle]="{ 'min-width': '50rem' }">
+  <ng-template pTemplate="caption"> Leitura de dados </ng-template>
+  <ng-template pTemplate="header">
+      <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>Idade</th>
+          <th>Rg</th>
+          <th>e-mail</th>
+          <th>actions</th>
+      </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-usuarios>
+      <tr>
+          <td>{{ usuarios.id }}</td>
+          <td>{{ usuarios.name }}</td>
+          <td>{{ usuarios.idade }}</td>
+          <td>{{ usuarios.rg }}</td>
+          <td>{{ usuarios.email }}</td>
+          <td class="flex align-items-center justify-content-center">
+            <a><i class="pi pi-pencil " style="margin-right: 20px"></i></a>
+            <a><i class="pi pi-trash"></i></a>
+
+          </td>
+            
+          
+
+
+      </tr>
+  </ng-template>
+  <ng-template pTemplate="summary"> Made By Adielson </ng-template>
+</p-table>
